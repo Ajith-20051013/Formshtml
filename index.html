@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Official Documents</title>
+</head>
+
+<style>
+    h1{
+       font-size: 3.5em; }
+    h3{
+       font-size: 1.2em; font-style: italic; }
+    h4{
+       font-style:italic; }
+   .abg{
+       background-color: rgb(240, 155, 75);
+   }
+
+   .bbg{
+       background-color: rgb(98, 247, 78);
+   }
+
+   .cbg{
+       background-color: rgb(137, 245, 236);
+   }
+
+   .dbg{
+    background-color: rgb(130, 166, 243);
+   }
+
+</style>
+<form action="submitshewag.html">
+
+ <!--Field set-->
+     <div 
+     class="abg">
+     <Form><fieldset><legend>Personal details</legend>
+
+ <!--Image adding-->
+     <div 
+     class="bbg">
+     <img src="image.jpg" alt="Profile icon"width="200px">
+
+<!--First name-->
+     <div 
+     class="abg">
+     <label for="uname"><h3>First name;</h3> </label>
+     <input type="text" name="fname" id="uname" placeholder="Enter your first name" maxlength="100" minlength="4" required><br><br>
+     </div>
+
+<!-- Last name-->
+     <div 
+     class="bbg">
+     <label for="lname"><h3>Last name;</h3> </label>
+     <input type="text" name="lname" id="lname" placeholder="Enter your last name" maxlength="100" minlength="1" required><br><br>
+     </div>
+
+<!-- Date of birth -->
+     <div 
+     class="abg">
+     <label for="dob"><h3>Date Of Birth;</h3> </label>
+     <input type="date" name="date of birth" id="dob" min="2000-01-01" max="2025-01-01"><br><br>
+     </div>   
+
+<!-- Cast -->
+     <div  
+     class="bbg">
+     <Label><h3>Cast;</h3></Label><br>
+     <input type="radio" name="BC" id="BC" value="BC" >
+     <label for="bc">BC: </label><br><br>
+     <input type="radio" name="MBC" id="MBC" value="MBC"> 
+     <label for="mbc">MBC: </label><br><br>  
+     <input type="radio" name="SC/ST" id="SC/ST" value="SC/ST">
+     <label for="scst">SC/ST: </label><br><br>
+     <input type="radio" name="OBC" id="OBC" value="OBC" >
+     <label for="obc">OBC: </label><br><br>
+     </div>
+
+<!-- Nationality -->
+     <div  
+     class="abg">
+     <Label><h3>Nationality;</h3></Label><br>
+     <input type="radio" name="Indian" id="Indian" value="Indian" >
+     <label for="Indian">Indian: </label><br><br>
+     <input type="radio" name="American" id="American" value="American"> 
+     <label for="American">American: </label><br><br>  
+     <input type="radio" name="African" id="African" value="African">
+     <label for="African">African: </label><br><br>
+     <input type="radio" name="Srilanakan" id="Srilankan" value="Srilankan" >
+     <label for="Srilankan">Srilanakan: </label><br><br>
+     </div>
+
+<!--Disability-->
+     <div 
+     class="bbg">
+     <label for="dis"><h3>Disability;</h3> </label>
+     <input type="dis" name="dis" id="dis" placeholder=" If yes enter your Disability type" maxlength="100" minlength="4" required><br><br>
+     </div>
+
+<!-- Age-->
+     <div 
+     class="abg">
+     <label for="age"><h3>Age;</h3> </label>
+     <input type="age" name="age" id="age" placeholder="Enter your age" min="18"  max="80"><br><br>
+     </div>
+
+<!-- G mail  -->
+     <div 
+     class="bbg">
+     <label for="mail"><h3>G mail;</h3> </label>
+     <input type="email" name="mail" id="mail" placeholder="Enter your Mail ID" maxlength="100" minlength="4" required><br><br>
+     </div>
+
+ <!--Mobile number-->
+     <div 
+     class="abg">
+     <label for="mno"><h3>Mobile number;</h3> </label>
+     <input type="number" name="mno" id="mno" placeholder="Enter your mobile number" maxlength="100" minlength="4" required><br><br>
+     </div> 
+</fieldset><br><br><br>
+
+
+
+<!-- @nd Field-->
+
+<fieldset><legend> Address details</legend>
+
+ <!-- House/Door no:-->
+     <div 
+     class="cbg">
+     <label for="dno"><h3>House/Door no;</h3> </label>
+     <input type="dno" name="dno" id="dno" placeholder="Enter Door no and House no" maxlength="100" minlength="1" required><br><br>
+     </div>
+
+<!-- Street/Area/Locality:-->
+      <div 
+      class="dbg">
+      <label for="sal"><h3>Street/Area/Locality;</h3> </label>
+      <input type="sal" name="sal" id="dno" placeholder="Enter street, area, locality" maxlength="100" minlength="1" required><br><br>
+      </div>
+
+<!--Map location-->
+     <div 
+     class="cbg">
+     <label><h3>Map ocation;</h3> </label>
+     <Center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.149423256592!2d80.22326607428634!3d13.089714987236631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52642e3c8faf7f%3A0x5c1f7526b2bfe819!2sDCKAP!5e0!3m2!1sen!2sin!4v1723638403336!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+     </Center></div>
+
+<!-- Residential-->
+     <div  
+     class="dbg">
+     <label for="rv"><h3>Residential Village/ City;</h3></label><br>
+     <select name="rv" id="rv">
+     <option value="1">Pattukottai</option>
+     <option value="2">Korattur</option>
+     <option value="3">Villivakkam</option>
+     <option value="4">Mylapore</option>
+     <option value="11">Chrompet</option>
+     <option value="22">Tambaram</option><br>
+     </select>
+     </div> 
+
+
+<!--Taluk and pincode-->
+     <div 
+     class="abg">
+     <label for="tp"><h3>Taluk and pincode;</h3> </label>
+     <input type="tp" name="tp" id="tp" placeholder="Enter your Taluk and pincode" maxlength="100" minlength="4" required><br><br>
+     </div>
+
+<!-- District-->
+     <div  
+     class="dbg">
+     <label for="rv"><h3>District;</h3></label><br>
+     <select name="rv" id="rv">
+     <option value="11">Pattukottai</option>
+     <option value="21">Thanjavur</option>
+     <option value="31">Vilupuram</option>
+     <option value="41">Tenkasi</option>
+     <option value="111">Chennai</option>
+     <option value="212">Tuticorin</option><br>
+     </select>
+     </div> 
+
+<!--Certificate upload-->
+     <div 
+     class="cbg">
+     <label for="docs1"><h3>Community certificate;</h3> </label>
+     <input type="file" name="docs1" id="docs1">
+     </div>
+
+<!--Certificate upload 1-->
+     <div 
+     class="cbg">
+     <label for="docs2"><h3>Aaadhar;</h3> </label>
+     <input type="file" name="docs2" id="docs2">
+     </div>
+
+<!--Certificate upload 2-->
+     <div 
+     class="cbg">
+     <label for="docs3"><h3>SSLC Marksheet and TC</h3> </label>
+     <input type="file" name="docs3" id="docs3">
+     </div>
+
+     <!--Submit-->
+    </div><br>
+    <center> <h2><input type="submit"></h2></center> 
+
+
+</fieldset>
+</Form>
+<body>
+    
+</body>
+</html>
